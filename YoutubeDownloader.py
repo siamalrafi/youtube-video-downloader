@@ -7,7 +7,7 @@ os.system("cls")
 
 
 def download_video(genre):
-    """Function that allows you to download videos from YouTube"""
+    """Function that allows you to download videos from YouTube."""
     fancy_console.mp3_console() if genre == "mp4" else fancy_console.mp4_console()
     link = input("Video URL :\n >>")
 
